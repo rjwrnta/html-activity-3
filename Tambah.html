@@ -8,9 +8,9 @@
         .container{
             margin: auto;
             width: 200px;
-            padding: 10px;
-            background-color: rgb(177, 176, 175);
-            box-shadow: 4px 4px 6px rgb(90, 89, 89);
+            padding: 20px;
+            background-color: rgb(189, 189, 189);
+            box-shadow: 4px 5px 6px rgb(66, 26, 26);
             border-radius: 10px;
             
         }
@@ -24,15 +24,14 @@
         padding-left: 135px;
         padding-top: 10px;
         border-radius: 5px;
-       
        }
-       .nama{
-        width: 100%;
+       .input{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
        }
-       input {
+       input{
         width: 95%;
-        border-radius: 5px;
-        cursor: pointer;
        }
     </style>
 </head>
@@ -41,31 +40,31 @@
         <h1>Tambah Barang</h1>
         <div class="input">
             <div class="nama">
-                <label for="Nama">Nama</label><br>
+                <label for="Nama">Nama</label>
                 <input type="text" value="">
             </div>
             <div class="kode">
-                <label for="kode">Kode</label><br>
+                <label for="kode">Kode</label>
                 <input type="text" value="">
             </div>
             <div class="tanggal">
-                <label for="tanggal masuk">Tanggal Masuk</label><br>
+                <label for="tanggal masuk">Tanggal Masuk</label>
                 <input type="date" value="">
             </div>  
             <div class="expired">
-                <label for="tanggal expired">Tanggal Expired</label><br>
+                <label for="tanggal expired">Tanggal Expired</label>
                 <input type="date" value="">
             </div>     
             <div class="stok">
-                <label for="jumlah stok">Jumlah Stok</label><br>
+                <label for="jumlah stok">Jumlah Stok</label>
                 <input type="number" value="">
             </div>       
             <div class="harga">
-                <label for="harga masuk">Harga Masuk</label><br>
+                <label for="harga masuk">Harga Masuk</label>
                 <input type="number" value="">
             </div>    
             <div class="harga jual">
-                <label for="harga jual">Harga Jual</label><br>
+                <label for="harga jual">Harga Jual</label>
                 <input type="number" value="">
             </div>  
             <div class="submit">
