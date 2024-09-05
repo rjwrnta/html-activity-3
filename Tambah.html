@@ -7,17 +7,38 @@
     <style>
         .container{
             margin: auto;
-            width: 50%;
+            width: 200px;
             padding: 10px;
+            background-color: rgb(177, 176, 175);
+            box-shadow: 4px 4px 6px rgb(90, 89, 89);
+            border-radius: 10px;
+            
         }
         h1{
-            font-family: sans-serif;
+            font-family:'Times New Roman', Times, serif;
+            font-size: x-large;
+            padding-bottom: 10px;
+            padding-left: 20px;
         }
+       .submit{
+        padding-left: 135px;
+        padding-top: 10px;
+        border-radius: 5px;
+       
+       }
+       .nama{
+        width: 100%;
+       }
+       input {
+        width: 95%;
+        border-radius: 5px;
+        cursor: pointer;
+       }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Tambah Makanan</h1>
+        <h1>Tambah Barang</h1>
         <div class="input">
             <div class="nama">
                 <label for="Nama">Nama</label><br>
@@ -30,7 +51,7 @@
             <div class="tanggal">
                 <label for="tanggal masuk">Tanggal Masuk</label><br>
                 <input type="date" value="">
-            </div>    
+            </div>  
             <div class="expired">
                 <label for="tanggal expired">Tanggal Expired</label><br>
                 <input type="date" value="">
@@ -46,7 +67,7 @@
             <div class="harga jual">
                 <label for="harga jual">Harga Jual</label><br>
                 <input type="number" value="">
-            </div>    
+            </div>  
             <div class="submit">
                 <button type="submit">Simpan</button>
             </div>
